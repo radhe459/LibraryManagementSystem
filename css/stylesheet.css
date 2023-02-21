@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-image: url(../img/backgrnd.webp);
+    text-align: center;
+}
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFB84C;
+}
+
+.logo {
+    color: white;
+}
+
+span.logo {
+    color: red
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: red
+}
+
+.greeting {
+    margin: 20px 0px;
+    color: white;
+}
