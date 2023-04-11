@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/books.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90f023c0b8.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">RSC<span class="logo">LIBRARY</span></h1>
+        <input type="checkbox" id="check">
+        <label for="check" class="baricon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="comhead heading">
+            <h2>COMPUTER SCIENCE</h2>
+        </div>
+
+        <div class="computer" id="cse">
+            <div class="combk book">
+                <img src="./img/books/computer/python.jpeg" alt="python">
+                <h4>PYTHON</h4>
+                <p>Available <span class="count" id="pi">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)" id="1">GET IT
+                    </button>
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/java.jpeg" alt="Java">
+                <h4>JAVA</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/c++.jpeg" alt="cpp">
+                <h4>C++</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/os.jpeg" alt="cpp">
+                <h4>OPERATING SYSTEM</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/cn.jpeg" alt="cpp">
+                <h4>COMPUTER NETWORKS</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/fswd.jpeg" alt="cpp">
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+                </div>
+            </div>
+            <div class="combk book">
+                <img src="./img/books/computer/iot.jpeg" alt="cpp">
+                <h4>IOT</h4>
+                <p>Available <span class="count">100</span></p>
+                <div class="btn">
+                    <button class="gtbut" onclick="getIt(this.id)">GET IT
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/books.js"></script>
+</body>
+
+</html>
